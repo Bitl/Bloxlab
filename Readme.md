@@ -8,9 +8,9 @@ Note that this mod is a WORK IN PROGRESS. Some planned features may be added or 
 
 This mod has been tested on both Quest and PC to insure proper compatibility and functionality.
 
-Note that this repository doesn't include the extended SDK scripts. Download the zip from [here][https://github.com/notnotnotswipez/Marrow-ExtendedSDK-PATCH-2], then extract the folder. Inside the folder, there should be another folder. Rename the folder to "Marrow-ExtendedSDK-main" and place it in the Assets folder. Unity SHOULD load it up fine.
+Note that this repository doesn't include the extended SDK scripts. Download the zip from [here][sdk], then extract the folder. Inside the folder, there should be another folder. Rename the folder to "Marrow-ExtendedSDK-main" and place it in the Assets folder. Unity SHOULD load it up fine.
 
-More information on the [mod.io page][https://mod.io/g/bonelab/m/bloxlab-lewa].
+More information on the [mod.io page][mod-io].
 
 ## Credits:
 Credits to the following people on the Lava Gang Discord server:
@@ -33,5 +33,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
+[sdk]: https://github.com/notnotnotswipez/Marrow-ExtendedSDK-PATCH-2
+[mod-io]: https://mod.io/g/bonelab/m/bloxlab-lewa
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
