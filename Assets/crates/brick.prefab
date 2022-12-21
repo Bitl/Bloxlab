@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 1919561593473224238}
   - component: {fileID: 6158818487359747987}
   - component: {fileID: 6373971044056606753}
+  - component: {fileID: 4955962742732604925}
+  - component: {fileID: 2366376089126284237}
   m_Layer: 15
   m_Name: Grip
   m_TagString: Untagged
@@ -146,6 +148,50 @@ MonoBehaviour:
   IconTex: {fileID: 0}
   IconSize: 0.1
   AnimationDuration: 0.1
+--- !u!114 &4955962742732604925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985649893298634031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8e0dc99dbc534d4e8bb37159f2d7429, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _CollisionEnterEvent:
+    _PersistentCalls:
+    - _Target: {fileID: 2366376089126284237}
+      _MethodName: RANDOMPLAY
+      _PersistentArguments: []
+  _CollisionStayEvent:
+    _PersistentCalls: []
+  _CollisionExitEvent:
+    _PersistentCalls: []
+--- !u!114 &2366376089126284237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985649893298634031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e039d5e6ae4ebf243b4a698f98a511b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioPlacementOverride: {fileID: 5838748988400609576}
+  mixerGroup: {fileID: 24300022, guid: a0118484ddf20eb419a62e21d0aea858, type: 2}
+  simpleClip:
+  - {fileID: 8300000, guid: dc87556d051df0c4ca52674306cdbcd1, type: 3}
+  - {fileID: 8300000, guid: 8b6080186046bb241b57ee2f61d519ff, type: 3}
+  - {fileID: 8300000, guid: e52ae2b6a4ab09147b6439253812e467, type: 3}
+  spatialBlend: 0.5
+  sourceRadius: 0
+  volume: 1
+  isLooping: 0
+  playBehavior: 0
 --- !u!1 &5838748988400609576
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,12 +322,12 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8486627768400661344}
   serializedVersion: 2
-  m_Mass: 3
+  m_Mass: 4.5
   m_Drag: 0.3
   m_AngularDrag: 0.15
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 2
+  m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
 --- !u!114 &-4898140989285884093
@@ -335,13 +381,21 @@ MonoBehaviour:
   outputMixer: {fileID: 24300022, guid: a0118484ddf20eb419a62e21d0aea858, type: 2}
   sourceTran: {fileID: 398958620741870524}
   hiltImpactSoft:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: dc87556d051df0c4ca52674306cdbcd1, type: 3}
+  - {fileID: 8300000, guid: 8b6080186046bb241b57ee2f61d519ff, type: 3}
+  - {fileID: 8300000, guid: e52ae2b6a4ab09147b6439253812e467, type: 3}
   hiltImpactHard:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 1d43b81a739d3d347adaa503b3c59563, type: 3}
+  - {fileID: 8300000, guid: 01b87f815921c3146ab824ef664af2c0, type: 3}
+  - {fileID: 8300000, guid: ade010a812eb30443924341f5547ab74, type: 3}
   bladeImpactSoft:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: dc87556d051df0c4ca52674306cdbcd1, type: 3}
+  - {fileID: 8300000, guid: 8b6080186046bb241b57ee2f61d519ff, type: 3}
+  - {fileID: 8300000, guid: e52ae2b6a4ab09147b6439253812e467, type: 3}
   bladeImpactHard:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 1d43b81a739d3d347adaa503b3c59563, type: 3}
+  - {fileID: 8300000, guid: 01b87f815921c3146ab824ef664af2c0, type: 3}
+  - {fileID: 8300000, guid: ade010a812eb30443924341f5547ab74, type: 3}
   fleshCut:
   - {fileID: 0}
   cardboardCut:

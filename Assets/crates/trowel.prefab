@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5575416223402379780}
   - component: {fileID: 2074857575176872145}
   - component: {fileID: 3263624590008274092}
-  - component: {fileID: 6666570631038173666}
+  - component: {fileID: 1682183786440164300}
   - component: {fileID: 3447320101851281568}
   - component: {fileID: 7545052848967360294}
   - component: {fileID: 1643203184048832012}
@@ -112,9 +112,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stabPoints:
   - pointTran: {fileID: 7062064507934488246}
-    pointCollider: {fileID: 0}
-    maxDepth: 0.2
-    aspectRatio: 1.6
+    pointCollider: {fileID: 1719314841583634188}
+    maxDepth: 0.5
+    aspectRatio: 2.75
     stabBreakForce: 1000
     sharpness: 0.1
     depthResistanceMult: 1
@@ -163,7 +163,7 @@ MonoBehaviour:
       cutAccelThresh: 0
   slashBlades:
   - bladeTran: {fileID: 415017133193156569}
-    bladeCollider: {fileID: 0}
+    bladeCollider: {fileID: 1719314841583634188}
     bladeLength: 0.25
     maxDepth: 0.1
     bladeBreakForce: 100
@@ -201,7 +201,7 @@ MonoBehaviour:
       impactVelocityThresh: 0
       cutAccelThresh: 0
   - bladeTran: {fileID: 259114049065357935}
-    bladeCollider: {fileID: 0}
+    bladeCollider: {fileID: 1719314841583634188}
     bladeLength: 0.25
     maxDepth: 0.1
     bladeBreakForce: 100
@@ -240,26 +240,26 @@ MonoBehaviour:
       cutAccelThresh: 0
   bladeAudio:
     outputMixer: {fileID: 24300022, guid: a0118484ddf20eb419a62e21d0aea858, type: 2}
-    sourceTran: {fileID: 7740404181175230254}
+    sourceTran: {fileID: 1657818959848432806}
     hiltImpactSoft:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 2a646d0a67b174143b1dcbaddc1cf3ef, type: 3}
     hiltImpactHard:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 2a646d0a67b174143b1dcbaddc1cf3ef, type: 3}
     bladeImpactSoft:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 2a646d0a67b174143b1dcbaddc1cf3ef, type: 3}
     bladeImpactHard:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 2a646d0a67b174143b1dcbaddc1cf3ef, type: 3}
     fleshCut:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 2a646d0a67b174143b1dcbaddc1cf3ef, type: 3}
     cardboardCut:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 2a646d0a67b174143b1dcbaddc1cf3ef, type: 3}
     woodCut:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 2a646d0a67b174143b1dcbaddc1cf3ef, type: 3}
     metalCut:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 2a646d0a67b174143b1dcbaddc1cf3ef, type: 3}
     cutEnd:
     - {fileID: 0}
-    whooshTran: {fileID: 7740404181175230254}
+    whooshTran: {fileID: 1657818959848432806}
     whooshLoop: {fileID: 8300000, guid: 804ded64348c98f4589b4e47d972f2df, type: 3}
     hiltColliders:
     - {fileID: 2934774665131041935}
@@ -268,7 +268,7 @@ MonoBehaviour:
     nativeImpactVelocity: 4
     impactVelocityThresh: 0.4
     cutAccelThresh: 8
---- !u!114 &6666570631038173666
+--- !u!114 &1682183786440164300
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -303,7 +303,7 @@ MonoBehaviour:
   OnIndexDown:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6666570631038173666}
+      - m_Target: {fileID: 1682183786440164300}
         m_TargetAssemblyTypeName: UltEvents.UltEventHolder, UltEvents
         m_MethodName: Invoke
         m_Mode: 1
@@ -311,7 +311,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 0.5
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
