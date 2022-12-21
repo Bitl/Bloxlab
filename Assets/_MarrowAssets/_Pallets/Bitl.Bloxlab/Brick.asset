@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34569ddb84e20304981812b1c448d930, type: 3}
+  m_Name: Brick
+  m_EditorClassIdentifier: 
+  _barcode:
+    _id: Bitl.Bloxlab.Spawnable.Brick
+    generated: 1
+  _barcodeOld:
+    _id: null.empty.barcode
+    generated: 0
+  _slimCode:
+    _byteArray: 
+  _title: Brick
+  _description: '*plastic drop noise*'
+  _unlockable: 0
+  _redacted: 0
+  _pallet: {fileID: 11400000, guid: b4931d2b394308f408070c431ca75182, type: 2}
+  _tags:
+  - Props
+  - Melee
+  - Blunt
+  - ROBLOX
+  - Bloxlab
+  _mainAsset:
+    _assetGUID: b8fbc08e12a5d8d49bf098029b820778
+    _editorAssetChanged: 0
+  _previewMesh:
+    _assetGUID: 10d8ea2821b6cd5418a76d49b8edf3e4
+    _editorAssetChanged: 1
+  _customQuality: 0
+  _previewMeshQuality: 0.5
+  _maxLODLevel: 0
+  _colliderBounds:
+    m_Center: {x: -0.0077846497, y: 0.07450459, z: 0.0013442636}
+    m_Extent: {x: 0.14903814, y: 0.07466268, z: 0.29978818}

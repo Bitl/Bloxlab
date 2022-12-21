@@ -1,0 +1,2702 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &714543446495780734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8220012872169596708}
+  - component: {fileID: 248433304302894841}
+  - component: {fileID: 9130604575893395461}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (23)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8220012872169596708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714543446495780734}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.60096, z: 0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &248433304302894841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714543446495780734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 9130604575893395461}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &9130604575893395461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714543446495780734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5748185591839951443}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &802443988736837291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6383630347603348429}
+  - component: {fileID: 3721734850014441761}
+  - component: {fileID: 2337936652749194663}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6383630347603348429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802443988736837291}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.7512, z: -0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3721734850014441761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802443988736837291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2337936652749194663}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2337936652749194663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802443988736837291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5058667721430528030}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &806104205791402319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7747732421853575515}
+  - component: {fileID: 6259384881798470039}
+  - component: {fileID: 3271237567670402964}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7747732421853575515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806104205791402319}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.0517, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6259384881798470039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806104205791402319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3271237567670402964}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3271237567670402964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806104205791402319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3414196683696227675}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &2082187264716896066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8162256505932051488}
+  - component: {fileID: 5058667721430528030}
+  - component: {fileID: 4157868415044918183}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8162256505932051488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082187264716896066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.90146005, z: 0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5058667721430528030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082187264716896066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4157868415044918183}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4157868415044918183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082187264716896066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3083513631875534373}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &2362777271422370219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6213984149228695569}
+  - component: {fileID: 7835374576809714060}
+  - component: {fileID: 2466223185455418168}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6213984149228695569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2362777271422370219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.15024, z: -0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7835374576809714060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2362777271422370219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2466223185455418168}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2466223185455418168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2362777271422370219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4882373260967492079}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &2515858701591500955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2338403079391283487}
+  - component: {fileID: 7769977430216030127}
+  - component: {fileID: 4310053728196728824}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2338403079391283487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2515858701591500955}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.45074, z: -0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7769977430216030127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2515858701591500955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4310053728196728824}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4310053728196728824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2515858701591500955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 248433304302894841}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &2919956302403236259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7846977619566017659}
+  - component: {fileID: 6920079808583671584}
+  - component: {fileID: 4058572778956587761}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7846977619566017659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2919956302403236259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.0517, z: 0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6920079808583671584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2919956302403236259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4058572778956587761}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4058572778956587761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2919956302403236259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6259384881798470039}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &3154063273835218225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 347869040845941801}
+  - component: {fileID: 3414196683696227675}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &347869040845941801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3154063273835218225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.0517, z: -0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3414196683696227675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3154063273835218225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &3609254217735684092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7988473327637726303}
+  - component: {fileID: 2898838407191702536}
+  - component: {fileID: 6414850303674772665}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7988473327637726303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3609254217735684092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3005, z: -0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2898838407191702536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3609254217735684092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6414850303674772665}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6414850303674772665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3609254217735684092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4384595113259251600}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &4070101836327192996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1610803253686410992}
+  - component: {fileID: 4384595113259251600}
+  - component: {fileID: 2856766823243269283}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1610803253686410992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4070101836327192996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.45074, z: 0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4384595113259251600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4070101836327192996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2856766823243269283}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2856766823243269283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4070101836327192996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8432249584107546378}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &4120500697883487115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6282006059339564603}
+  - component: {fileID: 8432249584107546378}
+  - component: {fileID: 2451097217512608550}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6282006059339564603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4120500697883487115}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.45074, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8432249584107546378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4120500697883487115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2451097217512608550}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2451097217512608550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4120500697883487115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7769977430216030127}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &4797662189076988075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 393824456968738999}
+  - component: {fileID: 3083513631875534373}
+  - component: {fileID: 6995080288742547314}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &393824456968738999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797662189076988075}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.90146005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3083513631875534373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797662189076988075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6995080288742547314}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6995080288742547314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797662189076988075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6639483574083632054}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &4806724267458394609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2573600130000582275}
+  - component: {fileID: 2528325830427696016}
+  - component: {fileID: 2006283040662712836}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2573600130000582275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4806724267458394609}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.7512, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2528325830427696016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4806724267458394609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2006283040662712836}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2006283040662712836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4806724267458394609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3721734850014441761}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &4880985126367734801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3041014822449071925}
+  - component: {fileID: 6785898173813200927}
+  - component: {fileID: 6894527753810409190}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3041014822449071925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4880985126367734801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.15024, z: 0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6785898173813200927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4880985126367734801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6894527753810409190}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6894527753810409190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4880985126367734801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7875825331278429954}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &5117774537494537557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4930499516747166491}
+  - component: {fileID: 7816195284339423461}
+  - component: {fileID: 8894693191062683466}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4930499516747166491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5117774537494537557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7816195284339423461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5117774537494537557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8894693191062683466}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8894693191062683466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5117774537494537557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6785898173813200927}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &5616861850217964298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8191000667577028879}
+  - component: {fileID: 5484262328095903293}
+  - component: {fileID: 2830414328179457266}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8191000667577028879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5616861850217964298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.60096, z: -0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5484262328095903293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5616861850217964298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2830414328179457266}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2830414328179457266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5616861850217964298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1600266687425673532}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &5646746985396819989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2530533712920400943}
+  - component: {fileID: 1013241738004624730}
+  - component: {fileID: 299220590135122478}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2530533712920400943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5646746985396819989}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1013241738004624730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5646746985396819989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 299220590135122478}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &299220590135122478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5646746985396819989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2898838407191702536}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &6379974751329085993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2890819460989130503}
+  - component: {fileID: 4882373260967492079}
+  - component: {fileID: 8425785592956132404}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2890819460989130503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6379974751329085993}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3005, z: 0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4882373260967492079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6379974751329085993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8425785592956132404}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8425785592956132404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6379974751329085993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1013241738004624730}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &6581471778061717036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8057075995613385633}
+  - component: {fileID: 7875825331278429954}
+  - component: {fileID: 8077537085047022086}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8057075995613385633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6581471778061717036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.15024, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7875825331278429954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6581471778061717036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8077537085047022086}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8077537085047022086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6581471778061717036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7835374576809714060}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &6684316858449203092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8536294529982833213}
+  m_Layer: 0
+  m_Name: brickwall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8536294529982833213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6684316858449203092}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3790983314808620034}
+  - {fileID: 1906111538234054192}
+  - {fileID: 4930499516747166491}
+  - {fileID: 8057075995613385633}
+  - {fileID: 3041014822449071925}
+  - {fileID: 6213984149228695569}
+  - {fileID: 2530533712920400943}
+  - {fileID: 2890819460989130503}
+  - {fileID: 7988473327637726303}
+  - {fileID: 6282006059339564603}
+  - {fileID: 1610803253686410992}
+  - {fileID: 2338403079391283487}
+  - {fileID: 5376855748117938787}
+  - {fileID: 8220012872169596708}
+  - {fileID: 8191000667577028879}
+  - {fileID: 2573600130000582275}
+  - {fileID: 1420944660233660063}
+  - {fileID: 6383630347603348429}
+  - {fileID: 393824456968738999}
+  - {fileID: 8162256505932051488}
+  - {fileID: 8015888945918520447}
+  - {fileID: 7747732421853575515}
+  - {fileID: 7846977619566017659}
+  - {fileID: 347869040845941801}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &6689988359217996089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8015888945918520447}
+  - component: {fileID: 6639483574083632054}
+  - component: {fileID: 3484825512248353441}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8015888945918520447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6689988359217996089}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.90146005, z: -0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6639483574083632054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6689988359217996089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3484825512248353441}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3484825512248353441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6689988359217996089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6920079808583671584}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &7973004042264219350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1420944660233660063}
+  - component: {fileID: 1600266687425673532}
+  - component: {fileID: 3421639974116514332}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1420944660233660063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7973004042264219350}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.7512, z: 0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1600266687425673532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7973004042264219350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3421639974116514332}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3421639974116514332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7973004042264219350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2528325830427696016}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &8384303780740662652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3790983314808620034}
+  - component: {fileID: 7516585444725528112}
+  - component: {fileID: 2221796850953588960}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3790983314808620034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8384303780740662652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7516585444725528112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8384303780740662652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2221796850953588960}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2221796850953588960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8384303780740662652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7816195284339423461}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &8813431452734389162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1906111538234054192}
+  - component: {fileID: 6068155617711778789}
+  - component: {fileID: 4678927804397718304}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1906111538234054192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8813431452734389162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6068155617711778789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8813431452734389162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 0
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4678927804397718304}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4678927804397718304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8813431452734389162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7516585444725528112}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &9075659925422555854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5376855748117938787}
+  - component: {fileID: 5748185591839951443}
+  - component: {fileID: 3826091163501656056}
+  m_Layer: 2
+  m_Name: Spawnable Placer (Brick) (22)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5376855748117938787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9075659925422555854}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.60096, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8536294529982833213}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5748185591839951443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9075659925422555854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a92c3490d7f240b2abf1a2a24839a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableCrateReference:
+    _barcode:
+      _id: Bitl.Bloxlab.Spawnable.Brick
+      generated: 1
+    _version: 0.0.2
+    _palletBarcode:
+      _id: Bitl.Bloxlab
+      generated: 1
+    _editorCrateChanged: 0
+  crateQuery:
+    _barcode:
+      _id: null.empty.barcode
+      generated: 1
+    _version: 
+    _palletBarcode:
+      _id: null.empty.barcode
+      generated: 1
+    _editorCrateChanged: 0
+    tagFilter: 
+    titleFilter: 
+  useQuery: 0
+  manualMode: 1
+  OnPlaceEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3826091163501656056}
+        m_TargetAssemblyTypeName: SLZ.VFX.GenericTimer, Assembly-CSharp
+        m_MethodName: PlayTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3826091163501656056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9075659925422555854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df87cafbb6ee4b40a4e835a4dd127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountingType: 0
+  Timer: 0.06
+  PlayOnEnable: 0
+  TimerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5484262328095903293}
+        m_TargetAssemblyTypeName: SLZ.Marrow.Warehouse.SpawnableCratePlacer, SLZ.Marrow
+        m_MethodName: PlaceSpawnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

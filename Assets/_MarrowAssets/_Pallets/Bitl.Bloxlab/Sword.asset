@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34569ddb84e20304981812b1c448d930, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  _barcode:
+    _id: Bitl.Bloxlab.Spawnable.Sword
+    generated: 1
+  _barcodeOld:
+    _id: null.empty.barcode
+    generated: 0
+  _slimCode:
+    _byteArray: 
+  _title: Sword
+  _description: Linked Sword
+  _unlockable: 0
+  _redacted: 0
+  _pallet: {fileID: 11400000, guid: b4931d2b394308f408070c431ca75182, type: 2}
+  _tags:
+  - Weapons
+  - Sharp
+  - Melee
+  - ROBLOX
+  - Bloxlab
+  _mainAsset:
+    _assetGUID: 4215514b46a17a54ab31a8ca51ff39b9
+    _editorAssetChanged: 0
+  _previewMesh:
+    _assetGUID: c2c53ad7c6429c8428381d164ce4b642
+    _editorAssetChanged: 1
+  _customQuality: 0
+  _previewMeshQuality: 0.5
+  _maxLODLevel: 0
+  _colliderBounds:
+    m_Center: {x: -0.00062499195, y: -0.32578743, z: -0.0000000018626451}
+    m_Extent: {x: 0.09699474, y: 0.32961363, z: 0.025120655}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bffa63f5a19c394b9f0ab757607a9ea, type: 3}
+  m_Name: _Bloxlab
+  m_EditorClassIdentifier: 
+  _barcode:
+    _id: Bitl.Bloxlab
+    generated: 1
+  _barcodeOld:
+    _id: null.empty.barcode
+    generated: 0
+  _slimCode:
+    _byteArray: 
+  _title: Bloxlab
+  _description: 
+  _unlockable: 0
+  _redacted: 0
+  _author: Bitl
+  _version: 0.0.2
+  _sdkVersion: 0.3.7-1748
+  _internal: 0
+  _crates:
+  - {fileID: 11400000, guid: 74afd7ce27b33c74e8e6619e61495d99, type: 2}
+  - {fileID: 11400000, guid: 840b24c682e0d3f42ab6dd0dfd393378, type: 2}
+  - {fileID: 11400000, guid: 9ff5892a175128c4f9bb4ca609d253ac, type: 2}
+  - {fileID: 11400000, guid: 80b5542cacfe77a4587544cbc6f881b1, type: 2}
+  _tags: []
+  _changeLogs:
+  - version: 0.01
+    title: Initial
+    text: '- Added Linked Sword.'
+  - version: 0.02
+    title: 
+    text: '- Added Trowel. Spawn brick walls!
+
+      - Added Bricks
+
+      - Added
+      Brick Walls
+
+      - Retuned Sword blade collider width.
+
+      - Updated scripts
+      to BONELAB Update 2 specifications.'
+  _crateTitles:
+  - Sword
+  - Trowel
+  - Brick
+  - Brickwall
