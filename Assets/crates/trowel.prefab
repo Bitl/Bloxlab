@@ -113,8 +113,8 @@ MonoBehaviour:
   stabPoints:
   - pointTran: {fileID: 7062064507934488246}
     pointCollider: {fileID: 1719314841583634188}
-    maxDepth: 0.5
-    aspectRatio: 2.75
+    maxDepth: 0.2
+    aspectRatio: 1.6
     stabBreakForce: 1000
     sharpness: 0.1
     depthResistanceMult: 1
@@ -263,7 +263,8 @@ MonoBehaviour:
     whooshLoop: {fileID: 8300000, guid: 804ded64348c98f4589b4e47d972f2df, type: 3}
     hiltColliders:
     - {fileID: 2934774665131041935}
-    - {fileID: 0}
+    - {fileID: 2100737444427125432}
+    - {fileID: 1151425591837228833}
     bluntDamageMult: 1
     nativeImpactVelocity: 4
     impactVelocityThresh: 0.4
