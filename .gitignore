@@ -76,3 +76,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Mm]arrow-[Ee]xtended[Ss][Dd][Kk]-main/*
 /[Rr]eleases/*
 /[Aa]ssets/_[Mm]arrow[Aa]ssets/*
+/[Aa]ssets/_[Mm]arrow[Aa]ssets.meta
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata.meta

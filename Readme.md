@@ -10,6 +10,8 @@ This mod has been tested on both Quest and PC to insure proper compatibility and
 
 Note that this repository doesn't include the extended SDK scripts. Download the zip from [here][sdk], then extract the folder. Inside the folder, there should be another folder. Rename the folder to "Marrow-ExtendedSDK-main" and place it in the Assets folder. Unity SHOULD load it up fine.
 
+You may also need to download the required packages for the SDK, alongside running the fixer tool SLZ provides to fix any additional problems.
+
 More information on the [mod.io page][mod-io].
 
 ## Credits:
