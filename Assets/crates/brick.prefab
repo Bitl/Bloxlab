@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1985649893298634031}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 398958620741870524}
@@ -47,8 +47,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.9871751, y: 0.99550235, z: 3.9971757}
-  m_Center: {x: -0.051897664, y: 0.49669728, z: 0.008961757}
+  m_Size: {x: 0.29903606, y: 0.15031531, z: 0.59756047}
+  m_Center: {x: -0.0076567978, y: 0.07504161, z: 0.001771301}
 --- !u!114 &6158818487359747987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,12 +322,12 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8486627768400661344}
   serializedVersion: 2
-  m_Mass: 5.5
-  m_Drag: 0.5
-  m_AngularDrag: 0.35
+  m_Mass: 25.5
+  m_Drag: 3.5
+  m_AngularDrag: 2.35
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 3
 --- !u!114 &-4898140989285884093
@@ -407,14 +407,14 @@ MonoBehaviour:
   whooshTran: {fileID: 398958620741870524}
   whooshLoop: {fileID: 8300000, guid: 804ded64348c98f4589b4e47d972f2df, type: 3}
   hiltColliders: []
-  bluntDamageMult: 0.2
+  bluntDamageMult: 1.5
   nativeImpactVelocity: 2
-  impactVelocityThresh: 2
-  cutAccelThresh: 2
+  impactVelocityThresh: 0.5
+  cutAccelThresh: 0.5
   bluntHotSpots:
-  - m_Host: {fileID: 0}
-    pointTran: {fileID: 0}
-    pointCollider: {fileID: 0}
+  - m_Host: {fileID: 1496624601432682826}
+    pointTran: {fileID: 5581780089429508529}
+    pointCollider: {fileID: 1919561593473224238}
     sharpness: 0
-    damage: 0
+    damage: 15
     _host: {fileID: 0}

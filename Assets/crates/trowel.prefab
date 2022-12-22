@@ -112,10 +112,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stabPoints:
   - pointTran: {fileID: 7062064507934488246}
-    pointCollider: {fileID: 1719314841583634188}
-    maxDepth: 0.2
-    aspectRatio: 1.6
-    stabBreakForce: 1000
+    pointCollider: {fileID: 1151425591837228833}
+    maxDepth: 0.4
+    aspectRatio: 2.21
+    stabBreakForce: 10000
     sharpness: 0.1
     depthResistanceMult: 1
     linearSpring: 3000
@@ -163,10 +163,10 @@ MonoBehaviour:
       cutAccelThresh: 0
   slashBlades:
   - bladeTran: {fileID: 415017133193156569}
-    bladeCollider: {fileID: 1719314841583634188}
+    bladeCollider: {fileID: 1151425591837228833}
     bladeLength: 0.25
-    maxDepth: 0.1
-    bladeBreakForce: 100
+    maxDepth: 0.3
+    bladeBreakForce: 1000
     sharpness: 0.3
     linearSpring: 1000
     linearDamp: 400
@@ -201,10 +201,10 @@ MonoBehaviour:
       impactVelocityThresh: 0
       cutAccelThresh: 0
   - bladeTran: {fileID: 259114049065357935}
-    bladeCollider: {fileID: 1719314841583634188}
+    bladeCollider: {fileID: 1151425591837228833}
     bladeLength: 0.25
-    maxDepth: 0.1
-    bladeBreakForce: 100
+    maxDepth: 0.3
+    bladeBreakForce: 1000
     sharpness: 0.3
     linearSpring: 1000
     linearDamp: 400
@@ -240,7 +240,7 @@ MonoBehaviour:
       cutAccelThresh: 0
   bladeAudio:
     outputMixer: {fileID: 24300022, guid: a0118484ddf20eb419a62e21d0aea858, type: 2}
-    sourceTran: {fileID: 1657818959848432806}
+    sourceTran: {fileID: 0}
     hiltImpactSoft:
     - {fileID: 8300000, guid: 2a646d0a67b174143b1dcbaddc1cf3ef, type: 3}
     hiltImpactHard:
@@ -259,7 +259,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 2a646d0a67b174143b1dcbaddc1cf3ef, type: 3}
     cutEnd:
     - {fileID: 0}
-    whooshTran: {fileID: 1657818959848432806}
+    whooshTran: {fileID: 0}
     whooshLoop: {fileID: 8300000, guid: 804ded64348c98f4589b4e47d972f2df, type: 3}
     hiltColliders:
     - {fileID: 2934774665131041935}
@@ -442,7 +442,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 24
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.3876397
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -562,7 +562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d7b71dc51be0447aa7d7083fdd0680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotType: 2
+  slotType: 1
   interactableHost: {fileID: 2074857575176872145}
   magazineSocket: {fileID: 0}
   gun: {fileID: 0}
@@ -601,61 +601,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1657818959848432806}
-  - {fileID: 7740404181175230254}
   - {fileID: 4802095072291227640}
+  - {fileID: 7740404181175230254}
   m_Father: {fileID: 762422810746601609}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1508418791871496457
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1657818959848432806}
-  - component: {fileID: 1719314841583634188}
-  m_Layer: 10
-  m_Name: Blade
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1657818959848432806
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508418791871496457}
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7062064507934488246}
-  - {fileID: 415017133193156569}
-  - {fileID: 259114049065357935}
-  m_Father: {fileID: 1494172433208957087}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!64 &1719314841583634188
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508418791871496457}
-  m_Material: {fileID: 13400000, guid: 039216b6353c0cf4d9d5ebbc0dcbd807, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2432090755550338912, guid: e354f8b95b4e80442ba1c2ea6c34b98d, type: 3}
 --- !u!1 &2170982278496745589
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,14 +983,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3602087594419892480}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.53, y: 2.89, z: 0.45}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0716, y: 0.0019999743, z: 0.18440005}
+  m_LocalScale: {x: 0.1, y: 0.10000001, z: 0.10000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1657818959848432806}
+  m_Father: {fileID: 4802095072291227640}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3918303120133089681
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,7 +1033,7 @@ GameObject:
   - component: {fileID: 4802095072291227640}
   - component: {fileID: 1151425591837228833}
   m_Layer: 10
-  m_Name: BladeHolder
+  m_Name: Blade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1100,9 +1050,12 @@ Transform:
   m_LocalPosition: {x: 0, y: -0.096, z: -0.047}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7062064507934488246}
+  - {fileID: 415017133193156569}
+  - {fileID: 259114049065357935}
   m_Father: {fileID: 1494172433208957087}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!65 &1151425591837228833
 BoxCollider:
@@ -1115,8 +1068,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.050850745, y: 0.03125399, z: 0.050809998}
-  m_Center: {x: 0.001688702, y: 0.0009726044, z: 0.09990376}
+  m_Size: {x: 0.13878842, y: 0.028590579, z: 0.24383268}
+  m_Center: {x: 0.0005076602, y: 0.0017860178, z: 0.19641511}
 --- !u!1 &4254760899281564007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,14 +1093,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4254760899281564007}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.0146, y: 4.149, z: 0.45}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0019999444, z: 0.3190001}
+  m_LocalScale: {x: 0.1, y: 0.10000001, z: 0.10000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1657818959848432806}
+  m_Father: {fileID: 4802095072291227640}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7490847642364366577
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,14 +1124,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7490847642364366577}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.53, y: 2.89, z: 0.45}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0716, y: 0.0019999743, z: 0.18440005}
+  m_LocalScale: {x: 0.1, y: 0.10000001, z: 0.10000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1657818959848432806}
+  m_Father: {fileID: 4802095072291227640}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8958417003583365866
 GameObject:
   m_ObjectHideFlags: 0
