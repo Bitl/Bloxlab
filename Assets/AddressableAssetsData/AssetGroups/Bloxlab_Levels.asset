@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Bloxlab_Levels
+  m_EditorClassIdentifier: 
+  m_GroupName: Bloxlab_Levels
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 40971d25cf466f44aa558e5ae098fb2c
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 786823353564d744cbb41404ddffcd54, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4085a33277bba134280e6e7198f197dc, type: 2}
+    - {fileID: 11400000, guid: 273ce3e9185a5004d9a0fa548d3882d7, type: 2}
+    - {fileID: 11400000, guid: 897802a01eeb81247bc3d7512b5de88c, type: 2}

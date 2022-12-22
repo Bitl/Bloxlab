@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Bloxlab_Spawnables
+  m_EditorClassIdentifier: 
+  m_GroupName: Bloxlab_Spawnables
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e2a30e369e222e244a8972cf7b6e006a
+  m_SerializeEntries:
+  - m_GUID: 4215514b46a17a54ab31a8ca51ff39b9
+    m_Address: Spawnable/Sword
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c2c53ad7c6429c8428381d164ce4b642
+    m_Address: PreviewMesh/Sword
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f95538f1737e704da9e391d1cdef4fa
+    m_Address: Spawnable/Trowel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b087c3a2b65fe824e964544123da2a5c
+    m_Address: PreviewMesh/Trowel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b8fbc08e12a5d8d49bf098029b820778
+    m_Address: Spawnable/Brick
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 10d8ea2821b6cd5418a76d49b8edf3e4
+    m_Address: PreviewMesh/Brick
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e5ab5ea212ece634293decfd2e21cac9
+    m_Address: Spawnable/Brickwall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d5444c827370b2140b69cfe1752bcc3b
+    m_Address: PreviewMesh/Brickwall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 786823353564d744cbb41404ddffcd54, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7b5220b9ffa1c2c4c9f421acc9db0785, type: 2}
+    - {fileID: 11400000, guid: 478176656dafdc84b815de9d736e95a7, type: 2}
+    - {fileID: 11400000, guid: aea92233e181d084db19fc804b484440, type: 2}

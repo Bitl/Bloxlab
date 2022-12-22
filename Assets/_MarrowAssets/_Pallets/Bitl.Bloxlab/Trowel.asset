@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34569ddb84e20304981812b1c448d930, type: 3}
+  m_Name: Trowel
+  m_EditorClassIdentifier: 
+  _barcode:
+    _id: Bitl.Bloxlab.Spawnable.Trowel
+    generated: 1
+  _barcodeOld:
+    _id: null.empty.barcode
+    generated: 0
+  _slimCode:
+    _byteArray: 
+  _title: Trowel
+  _description: Linked Trowel
+  _unlockable: 0
+  _redacted: 0
+  _pallet: {fileID: 11400000, guid: b4931d2b394308f408070c431ca75182, type: 2}
+  _tags:
+  - Weapon
+  - Sharp
+  - Gadget
+  - Melee
+  - ROBLOX
+  - Bloxlab
+  _mainAsset:
+    _assetGUID: 2f95538f1737e704da9e391d1cdef4fa
+    _editorAssetChanged: 0
+  _previewMesh:
+    _assetGUID: b087c3a2b65fe824e964544123da2a5c
+    _editorAssetChanged: 1
+  _customQuality: 0
+  _previewMeshQuality: 0.5
+  _maxLODLevel: 0
+  _colliderBounds:
+    m_Center: {x: 0.0005076602, y: -0.20958704, z: -0.018067446}
+    m_Extent: {x: 0.06939429, y: 0.20474452, z: 0.042597596}
